@@ -8,7 +8,9 @@ const BlogLayout = ({ children }) => {
           <ul>
             <li>
               <Link to={routes.about()}>About</Link>
-              {/* <a href="/about">About</a> */}
+            </li>
+            <li style={{ marginLeft: '1em' }}> {/* Added a little space */}
+              <Link to={routes.contact()}>Contact</Link>
             </li>
           </ul>
         </nav>
